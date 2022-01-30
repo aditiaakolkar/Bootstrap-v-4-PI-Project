@@ -1,0 +1,179 @@
+html, body {
+    height: 100%;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-1 .card-body {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    /*box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;*/
+}
+
+.login-form-1 h3, .login-form-1 h4 {
+    text-align: center;
+}
+
+.login-container form {
+    padding: 8% 6%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.login-form-1 .ForgetPwd {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+}
+
+a.nav-link {
+    padding: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    background: rgba(255, 255, 255, .1);
+}
+
+.top-spacing {
+    margin-top: 56px;
+}
+
+/* Project style starts */
+.project-heading h2 {
+    position: relative;
+    padding-bottom: 23px;
+}
+
+.project-heading h2:after {
+    position: absolute;
+    content: "";
+    background: #3f51b5;
+    width: 100px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.modal-dialog.modal-notify.modal-stylish-color-dark .modal-header {
+    background-color: #3e4551;
+}
+
+.md-v-line {
+    position: absolute;
+    border-left: 1px solid rgba(0, 0, 0, .125);
+    height: 50px;
+    top: 0px;
+    left: 130px;
+}
+
+.md-text-align {
+    position: absolute;
+    left: 150px;
+}
+
+/*Input File Start*/
+.limit-BS-input-file .custom-file-label {
+    padding: .375rem 5.5rem .375rem .75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.limit-BS-input-file .custom-file-input {
+    cursor: pointer;
+}
+
+/*.file-field {
+    position: relative;
+}
+
+.file-field input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.file-field .file-path-wrapper {
+    height: 2.5rem;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.md-form input[type="text"]:not(.browser-default) {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.file-field input.file-path {
+    width: 100%;
+    height: 36px;
+}*/
+
+/*Input File Ends*/
+
+/*Selectable Search Starts*/
+.create-csv-area .selectable-search .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.create-csv-area .selectable-search .btn-light.dropdown-toggle {
+    background-color: transparent !important;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding: .375rem .75rem .375rem .75rem;
+    border-radius: .25rem;
+    text-transform: none;
+    font-size: 1rem;
+    color: #495057;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/*Selectable Search Ends*/
+
+.create-csv-area table th {
+    font-size: inherit;
+}
